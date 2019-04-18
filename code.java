@@ -8,17 +8,6 @@ import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 interface header
 {
-	/* String st="";
- public String setheadstr(String s)
- {
-	 st=s;
-}
-public String getheadstr()
- {
-	 return st;
-}
-void css();
- void title();*/
 
 }
 class headclass implements header
@@ -44,10 +33,6 @@ class headclass implements header
 interface footer
 {
 static String footstr1="";
- /*void form();
- void contactdetails();
- void endfooter();
- void end();*/
 }
 class guitrial extends JFrame implements ActionListener
 {
@@ -258,12 +243,6 @@ class footerclass extends guitrial implements footer
 
 interface body
 {
-	//static String bodyst1="";
-	 /*void headarticle();
-	 void article_text();
-	 void article_image();
-	 void article_links();
-	 void closearticle();*/
 	 default String item_active(String img,String alt,String cap,String desc)
 	 {
 		 return ("<div class='item active'>\n<img src='"+img+"' alt='"+alt+"'>\n<div class='carousel-caption'>\n<h3>"+cap+"</h3>\n<p>"+desc+"</p>\n</div> \n</div>");
