@@ -331,7 +331,7 @@ class gettingstr implements header,body,footer
 	public String run()
 	{
 		String bst="";
-		//headclass being called
+		
 		headclass a=new headclass();
 		a.css();
 		a.title();
