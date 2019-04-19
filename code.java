@@ -26,7 +26,7 @@ class headclass implements header
       headstr=headstr+"\n<title>";
       headstr=headstr+re;
       headstr=headstr+"</title>\n<meta charset='utf-8'>\n<meta name='viewport' content='width=device-width, initial-scale=1'>\n<link rel='stylesheet'href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>\n<link href='https://fonts.googleapis.com/css?family=Lato'rel='stylesheet' type='text/css'>\n<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>\n<script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>\n<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script></head>\n";
-      //setheadstr(headstr);
+      
       }
        
 }
